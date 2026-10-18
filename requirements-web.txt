@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+python-multipart
+streamlit
+openai
+azure-identity
+azure-ai-projects
+pypdf
+python-docx
+python-dotenv
+pandas

@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TalentIQ · Recruiter workspace</title><link rel="stylesheet" href="/css/styles.css"></head>
+<body>
+<main id="app" class="shell">
+  <header class="topbar"><a class="brand" href="/"><img src="/assets/nimo.svg" alt="">TalentIQ</a><span class="pill">Recruiter workspace</span></header>
+  <section id="login" class="card login"><img class="nimo" src="/assets/nimo.svg" alt="Nimo, TalentIQ mascot"><p class="eyebrow">AI-assisted hiring</p><h1>Build your shortlist with confidence.</h1><p class="muted">Securely analyse a role, compare CV evidence, and move faster.</p><form id="login-form"><label>Username<input name="username" autocomplete="username" required></label><label>Password<input name="password" type="password" autocomplete="current-password" required></label><button class="primary">Sign in</button><p id="login-error" class="error" role="alert"></p></form></section>
+  <section id="workspace" hidden><div class="hero"><div><p class="eyebrow">Your hiring copilot</p><h1>One clear next step at a time.</h1><p class="muted">Nimo keeps your workflow moving from role brief to ready-to-call shortlist.</p></div><button id="logout" class="ghost">Sign out</button></div><nav id="progress" aria-label="Workflow progress"></nav><div id="step-content" class="card"></div></section>
+</main><script type="module" src="/js/app.js"></script>
+</body></html>
